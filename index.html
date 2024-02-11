@@ -3,9 +3,370 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/chips.css">
+    <link rel="stylesheet" href="assets/academicons/css/academicons.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.css">
+
+    <link rel="icon" href="assets/media/img/favicon-light_mode.png" id="icon-light-mode">
+    <link rel="icon" href="assets/media/img/favicon-dark_mode.png" id="icon-dark-mode">
+    
     <title>Malte Josten</title>
 </head>
 <body>
-  Under construction...
+    <!-- Section(About) -->
+    <section>
+        <div class="container">
+            <!-- <h2 class="section-header">About</h2> -->
+            <div class="about-collection">
+                <div class="about-img">
+                    <img class="img-me" src="assets/media/img/me.png"/>
+                </div>
+                <div class="about-params">
+                    <div class="about-text">
+                        <h2>Malte Josten</h2>
+                        <h4>Ph.D. Student @ Distributed Systems Group</h4>
+                        <h4>University of Duisburg-Essen, Duisburg, Germany</h4>
+                    </div>
+                    <div class="about-socials">
+                        <div class="chip-collection">
+                            <a class="ai-chip scholar" href="#" target="_self">Google Scholar</a>
+                            <a class="ai-chip researchgate" href="https://www.researchgate.net/profile/Malte_Josten" target="_blank">ResearchGate</a>
+                            <a class="ai-chip orcid" href="https://orcid.org/0000-0003-2102-1575" target="_blank">ORCID<a>
+                        </div>
+                        <div class="chip-collection">
+                            <a class="fa-chip github" href="https://github.com/MalteJosten" target="_blank">GitHub</a>
+                            <a class="fa-chip linkedin" href="https://linkedin.com/in/malte-josten" target="_blank">LinkedIn</a>
+                            <a class="fa-chip uni" href="https://vs.uni-due.de/en/person/josten" target="_blank">Uni DUE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section(Research) -->
+    <section>
+        <div class="container">
+            <h2 class="section-header">Research</h2>
+            <div class="research-fields">
+                <div class="research-field">
+                    <h4 class="research-title">Explainable Security <span class="research-subtitle">in Distributed Systems</span></h4>
+                    <div class="research-desc">
+                        Cybersecurity is more important than ever, and with the increasing complexity of attacks, their countermeasures also get more complex.
+                        As a result - especially with the rise of AI - being able to judge whether and how Security is achieved can be quite cumbersome and complicated.
+                        In my research, I'm trying to find new and innovative ways to make Security more explainable and transparent, not only with <span class="research-highlight">Explainable Artificial Intelligence (XAI)</span> but also with "classical" non-AI approaches, e.g., <span class="research-highlight">XSec</span>.
+                    </div>
+                </div>
+                <div class="research-field">
+                    <h4 class="research-title">Longevity and Sustainability <span class="research-subtitle">of Software Systems</span></h4>
+                    <div class="research-desc">
+                        Writing code is easy<sup>1</sup>.
+                        Writing good and long-lasting code is hard(er).
+                        In my opinion, it is crucial to develop software sustainably for both economic and ecological reasons.
+                        Software aging, technical debt, and maintainability are already having a major impact on software development today, and with ever more sophisticated systems, this will be even more evident in the foreseeable future.
+                        For this reason, I'm looking into <span class="research-highlight">Software Qualities</span>, with a special remark on longevity and sustainability to improve existing and introduce beneficial practices.
+                        <br>
+                        <div class="footnote"><sup>1</sup> [insert proof here]<div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section(Publications) -->
+    <section>
+        <div class="container">
+            <h2 class="section-header">Publications</h2>
+            <h3>2023</h3>
+            <div>
+                <div>
+                    <div class="pub-thumbnail-box">
+                        <a href="https://doi.org/10.1109/PerComWorkshops56833.2023.10150386" target="_blank"">
+                            <img class="pub-thumbnail" src="assets/media/publications/PerComWorkshops56833.2023.10150386.png" alt="Publication: Revising Poor Man's Eyetracking For Crowd-Sourced Studies"/>
+                        </a>
+                    </div>
+                    <div class="pub-details" id="pub-eyetracker">
+                        <div class="pub-title">
+                            Revising Poor Man's Eyetracking For Crowd-Sourced Studies
+                        </div>
+                        <div class="pub-location ieee-conference">
+                            21st IEEE International Conference on Pervasive Computing and Communications (PerCom 2023)
+                        </div>
+                        <div class="pub-authors">
+                            <a class="link link-offset-1" href="https://vs.uni-due.de/en/person/becks" target="_blank">Eileen Becks</a>,
+                            Malte Josten,
+                            <a class="link link-offset-1" href="https://vs.uni-due.de/en/person/matkovic" target="_blank">Viktor Matkovic</a>,
+                            <a class="link link-offset-1" href="https://vs.uni-due.de/en/person/weis" target="_blank">Torben Weis</a>
+                        </div>
+                        <div class="pub-chips">
+                            <a class="ai-chip doi" href="https://doi.org/10.1109/PerComWorkshops56833.2023.10150386" target="_blank">DOI</a>
+                            <a class="fa-chip conference" href="https://percom.org/2023/" target="_blank">PerCom 2023</a>
+                            <a class="fa-chip github" href="https://github.com/vs-ude/pipemaze-study/" target="_blank">Study Tool</a>
+                            <a class="fa-chip poster" href="/assets/media/poster/percom2023_poster.pdf" target="_blank">Poster</a>
+                        </div>
+                        <div class="pub-misc">
+                            <img class="pub-badge" src="assets/media/img/percom2023-artifact.png"/>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                <div>
+                    <div class="pub-thumbnail-box">
+                        <a class="pub-link" href="https://doi.org/10.1109/PerComWorkshops56833.2023.10150307" target="_blank">
+                            <img class="pub-thumbnail" src="assets/media/publications/PerComWorkshops56833.2023.10150307.png" alt="Artifact: Revising Poor Man's Eyetracking For Crowd-Sourced Studies"/>
+                        </a>
+                    </div>
+                    <div class="pub-details" id="pub-eyetracker_artifact">
+                        <div class="pub-title">
+                            Artifact: Revising Poor Man's Eyetracking For Crowd-Sourced Studies
+                        </div>
+                        <div class="pub-location ieee-conference">
+                            21st IEEE International Conference on Pervasive Computing and Communications (PerCom 2023)
+                        </div>
+                        <div class="pub-authors">
+                            <a class="link link-offset-1" href="https://vs.uni-due.de/en/person/becks" target="_blank">Eileen Becks</a>,
+                            Malte Josten,
+                            <a class="link link-offset-1" href="https://vs.uni-due.de/en/person/matkovic" target="_blank">Viktor Matkovic</a>,
+                            <a class="link link-offset-1" href="https://vs.uni-due.de/en/person/weis" target="_blank">Torben Weis</a>
+                        </div>
+                        <div class="pub-chips">
+                            <a class="ai-chip doi" href="https://doi.org/10.1109/PerComWorkshops56833.2023.10150307" target="_blank">DOI</a>
+                            <a class="fa-chip conference" href="https://percom.org/2023/" target="_blank">PerCom 2023</a>
+                            <a class="fa-chip github" href="https://github.com/vs-ude/poor-mans-eyetracker/" target="_blank">Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section(Activities) -->
+    <section>
+        <div class="container">
+            <h2 class="section-header">Activities</h2>
+            <table class="activity-table">
+                <tr>
+                    <td class="act-role">Organiser</td>
+                    <td class="act-location">International Workshop on Longevity in IoT Systems (LongevIoT)</td>
+                    <td class="act-years"><a class="fa-chip year" href="#activities" target="_self">2024</a></td>
+                </tr>
+                <tr>
+                    <td class="act-role"></td>
+                    <td class="act-location">International Workshop on Negative Results in Pervasive Computing (PerFail)</td>
+                    <td class="act-years"><a class="fa-chip year" href="https://perfail-workshop.github.io/2024/" target="_blank">2024</a></td>
+                </tr>
+                <tr class="act-role-section">
+                    <td class="act-role">Web Chair</td>
+                    <td class="act-location">International Conference on the Internet of Things (ACM IoT)</td>
+                    <td class="act-years"><a class="fa-chip year" href="https://iot-conference.org/iot2024/" target="_blank">2024</a></td>
+                </tr>
+                <tr class="act-role-section">
+                    <td class="act-role">Student Volunteer</td>
+                    <td class="act-location">International Conference on Pervasive Computing and Communications (IEEE PerCom)</td>
+                    <td class="act-years"><a class="fa-chip year" href="https://percom.org/PerCom2022/" target="_blank">2022</a></td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <!-- Section(Projects) -->
+    <section>
+        <div class="container">
+            <h2 class="section-header">Projects</h2>
+            <table class="project-table">
+                <tr>
+                    <td class="project-time">2024/02 - today</td>
+                    <td class="project-details" id="quantum">
+                        <span class="project-name">QuantumNRW</span>
+                        <div>Funded by the <a class="link" href="https://www.efre.nrw.de/" target="_blank">European Regional Development Fund (EFRE).</a></div>
+                        <div class="chip-collection">
+                            <a class="fa-chip abc" href="" target="_blank">Website</a>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="project-time">2022/09 - today</td>
+                    <td class="project-details" id="boarding">
+                        <span class="project-name">Boarding: Automated Attendance Checks</span>
+                        <div class="chip-collection">
+                            <a class="fa-chip abc" href="https://vs.uni-due.de/en/projects/boarding/" target="_blank">Website</a>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="project-time">2022/06 - today</td>
+                    <td class="project-details" id="hki">
+                        <span class="project-name">hKI-Chemie: Human-centered AI in the chemical industry</span>
+                        <div>Funded by the <a class="link" href="https://www.bmbf.de/bmbf/en/home/home_node.html" target="_blank">Federal Ministry of Education and Research (BMBF)</a> and <a class="link" href="https://projekttraeger.dlr.de/en" target="_blank">DLR Projektträger.</a></div>
+                        <div class="chip-collection">
+                            <a class="fa-chip abc" href="https://humanzentrierte-ki.de/" target="_blank">Website</a>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="project-time">2020/01 - 2022/04</td>
+                    <td class="project-details" id="ar-ingo">
+                        <span class="project-name">AR-InGo: Augmented Reality for Engineering</span>
+                        <div>Funded by the <a class="link" href="https://www.efre.nrw.de/" target="_blank">European Regional Development Fund (EFRE).</a></div>
+                        <div class="chip-collection">
+                            <a class="fa-chip abc" href="https://www.uni-due.de/nanoschoollab/ar-ingo.php" target="_blank">Website</a>
+                            <a class="fa-chip apple" href="https://apps.apple.com/in/app/nano-scholar-lab/id1533811425" target="_blank">App</a>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <!-- Section(CV) -->
+    <section>
+        <div class="container">
+            <h2 class="section-header">CV</h2>
+
+            <h3>Work Experience</h3>
+            <table class="cv-table">
+                <tr>
+                    <td class="cv-interval">2022/10 - today</td>
+                    <td class="cv-details">
+                        <div class="cv-title">Research Assistant</div>
+                        <div class="cv-location"><a class="link" href="https://vs.uni-due.de/en/" target="_blank">Department of Distributed Systems</a>, <a class="link" href="https://www.uni-due.de/en/index.php" target="_blank">University of Duisburg-Essen</a>, Germany</div>
+                        <ul>
+                            <li><a class="reference" href="#quantum">QuantumNRW</a></li>
+                            <ul>
+                                <li>Conceptualizing new teaching concepts to introduce school and college students to quantum computing</li>
+                            </ul>
+                            <li><a class="reference" href="#boarding">Boarding Application</a></li>
+                            <ul>
+                                <li>Developing a cross-platform app for improved student attendance checks and exam administration (Flutter)</li>
+                                <li><a class="link" href="https://gdpr-info.eu/" target="_blank">GDPR</a> and <a class="link" href="https://commoncriteriaportal.org/index.cfm" target="_blank">Common Criteria</a> (EAL 4+) compliant</li>
+                            </ul>
+                            <li><a class="reference" href="#hki">hKI-Chemie</a></li>
+                            <ul>
+                                <li>Developed a web tool for evaluating human behavior in artifical intelligence nudging study</li>
+                                <li>Publication: <a class="reference" href="#pub-eyetracker"><i>Revising Poor Man's Eyetracking For Crowd-Sourced Studies</i></a></li>
+                                <li>Publication: <a class="reference" href="#pub-eyetracker_artifact"><i>Artifact: Revising Poor Man's Eyetracking For Crowd-Sourced Studies</i></a></li>
+                            </ul>
+                            <li>Development of an outcome-oriented smart home framework (Java)</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="cv-interval">2020/04 - 2022/09</td>
+                    <td class="cv-details">
+                        <div class="cv-title">Student & Scientific Assistant</div>
+                        <div class="cv-location"><a class="link" href="https://vs.uni-due.de/en/" target="_blank">Department of Distributed Systems</a>, <a class="link" href="https://www.uni-due.de/en/index.php" target="_blank">University of Duisburg-Essen</a>, Germany</div>
+                        <ul>
+                            <li><a class="reference" href="#ar-ingo">AR-Ingo</a></li>
+                            <ul>
+                                <li>Developed an augmented reality app for iOS devices (Unity, C#)</li>
+                                <li>Created 3D models and animations of various scientific instruments and experiments (Blender)</li>
+                            </ul>
+                            <li>Tutor for</li>
+                            <table class="tbl-tutor">
+                                <tr>
+                                    <td><li>Computer Networks and Communication Systems</li></td>
+                                    <td><a class="fa-chip year" href="https://vs.uni-due.de/en/teaching/ws22/rn/" target="_blank">2022</a></td>
+                                </tr>
+                                <tr>
+                                    <td><li>Internet Technologies and Web Engineering</li></td>
+                                    <td><a class="fa-chip year" href="https://vs.uni-due.de/en/teaching/ss22/it/" target="_blank">2022</a></td>
+                                </tr>
+                                <tr>
+                                    <td><li>Computer Architecture</li></td>
+                                    <td><a class="fa-chip year" href="https://vs.uni-due.de/en/teaching/ss22/ra/" target="_blank">2022</a></td>
+                                </tr>
+                                <tr>
+                                    <td><li>Operating Systems</li></td>
+                                    <td><a class="fa-chip year" href="https://vs.uni-due.de/en/teaching/ws21/bs/" target="_blank">2021</a></td>
+                                </tr>
+                            </table>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="cv-interval">2017/10 - 2019/10</td>
+                    <td class="cv-details">
+                        <div class="cv-title">Temporary Retail Worker</div>
+                        <div class="cv-location"><a class="link" href="https://www.netto-online.de/" target="_blank">Netto Marken-Discount</a>, Mülheim an der Ruhr, Germany</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="cv-interval">2015/01 - 2015/02</td>
+                    <td class="cv-details">
+                        <div class="cv-title">Intern</div>
+                        <div class="cv-location"><a class="link" href="https://www.krankikom.de/" target="_blank">Kranikom GmbH</a>, Duisburg, Germany</div>
+                        <ul>
+                            <li>Scrum and agile methods</li>
+                            <li>Web design</li>
+                            <li>Customer acquisition and marketing</li>
+                            <li>Project management and administration</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+
+            <h3>Education</h3>
+            <table class="cv-table">
+                <tr>
+                    <td class="cv-interval">2024/01 - today</td>
+                    <td class="cv-details" id="phd">
+                        <div class="cv-title">Ph.D. Student</div>
+                        <div class="cv-location"><a class="link" href="https://vs.uni-due.de/en/" target="_blank">Department of Distributed Systems</a>, <a class="link" href="https://www.uni-due.de/en/index.php" target="_blank">University of Duisburg-Essen</a>, Germany</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="cv-interval">2021/04 - 2023/12</td>
+                    <td class="cv-details" id="msc">
+                        <div class="cv-title">Applied Computer Science, M.Sc.</div>
+                        <div class="cv-location"><a class="link" href="https://www.uni-due.de/en/index.php" target="_blank">University of Duisburg-Essen</a>, Germany</div>
+                        <ul>
+                            <li>Focus: Distributed, reliable systems</li>
+                            <li>Thesis: "FooSH: A Framework for outcome-oriented Smart Homes"</li>
+                        </ul>
+                        <a class="fa-chip pdf" href="/assets/media/theses/ma-thesis.pdf" target="_blank">Thesis (en)</a>
+                        <a class="fa-chip github" href="https://github.com/MalteJosten/foosh" target="_blank">Code</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="cv-interval">2017/10 - 2021/03</td>
+                    <td class="cv-details" id="bsc">
+                        <div class="cv-title">Applied Computer Science, B.Sc.</div>
+                        <div class="cv-location"><a class="link" href="https://www.uni-due.de/en/index.php" target="_blank">University of Duisburg-Essen</a>, Germany</div>
+                        <ul>
+                            <li>Thesis: "Development of an augmented reality app for iOS devices to control IoT devices"</li>
+                        </ul>
+                        <a class="fa-chip pdf" href="/assets/media/theses/ba-thesis.pdf" target="_blank">Thesis (de)</a>
+                        <a class="fa-chip github" href="https://github.com/MalteJosten/arios" target="_blank">Code</a>
+                    </td>
+                </tr>
+            </table>
+
+            <div class="downloads">
+                <span class="cv-downloads">Downloads:</span>
+                <a class="fa-chip pdf disabled-chip" href="/assets/media/cv_en.pdf" target="_blank">CV (en)</a>
+                <a class="fa-chip pdf disabled-chip" href="/assets/media/cv_de.pdf" target="_blank">CV (de)</a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div><i>"They did not know it was impossible, so they did it."</i></div>
+        <div>Mark Twain</div> 
+    </footer>
 </body>
+<script>
+    lightModeIcon = document.querySelector("link#icon-light-mode");
+    darkModeIcon = document.querySelector("link#icon-dark-mode");
+
+    matcher = window.matchMedia("(prefers-color-scheme: dark)");
+    matcher.addListener(onUpdate);
+    onUpdate();
+
+    function onUpdate() {
+        if (matcher.matches) {
+            lightModeIcon.remove();
+            document.head.append(darkModeIcon);
+        } else {
+            darkModeIcon.remove();
+            document.head.append(lightModeIcon);
+        }
+    }
+</script>
 </html>

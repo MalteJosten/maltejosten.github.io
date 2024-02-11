@@ -1,0 +1,128 @@
+
+/* Academicons Chips */
+
+.ai-chip {
+  text-decoration: none;
+  background-color: var(--color-secondary);
+  border-radius: 0.5em;
+  padding: 0 10px; 
+  border: 1.5px solid transparent;
+  color: var(--color-link-text);
+  white-space: nowrap;
+}
+
+.ai-chip:hover {
+  background-color: var(--color-link-text);
+  border: 1.5px solid var(--color-secondary);
+  color: var(--color-secondary);
+
+}
+
+.ai-chip:before {
+  font-family: "Academicons";
+  font-weight: 400;
+  margin-right: 0.5em;
+}
+
+.ai-chip.ieee:before {
+  content: "\e9b9";
+}
+
+.ai-chip.doi:before {
+  content: "\e97e";
+}
+
+.ai-chip.scholar:before {
+  content: "\e9d4";
+}
+
+.ai-chip.orcid:before {
+  content: "\e9d9";
+}
+
+.ai-chip.researchgate:before {
+  content: "\e95e";
+}
+
+/* Font Awesome Chips */
+
+.fa-chip {
+  text-decoration: none;
+  background-color: var(--color-secondary);
+  border-radius: 0.5em;
+  padding: 0 10px; 
+  border: 1.5px solid transparent;
+  color: var(--color-link-text);
+  white-space: nowrap;
+}
+
+.fa-chip:hover {
+  background-color: var(--color-link-text);
+  border: 1.5px solid var(--color-secondary);
+  color: var(--color-secondary);
+}
+
+.fa-chip:before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-right: 0.5em;
+}
+
+.fa-chip.award:before {
+  content: "\f559";
+}
+
+.fa-chip.conference:before {
+  content: "\f0c0";
+}
+
+.fa-chip.poster:before {
+  content: "\f1c5";
+}
+
+.fa-chip.pdf:before {
+  content: "\f1c1";
+}
+
+.fa-chip.abc:before {
+  content: "\f0c1";
+}
+
+.fa-chip.github:before {
+  font-family: "Font Awesome 5 Brands";
+  content: "\f09b";
+}
+
+.fa-chip.linkedin:before {
+  font-family: "Font Awesome 5 Brands";
+  content: "\f08c";
+}
+
+.fa-chip.uni:before {
+  content: "\f19c";
+}
+
+.fa-chip.apple:before {
+  font-family: "Font Awesome 5 Brands";
+  content: "\f179";
+}
+
+/** Collection **/
+
+.chip-collection {
+  margin: 5px 0;
+}
+
+/** Disabled Chip **/
+
+.disabled-chip {
+  pointer-events: none;
+  cursor: default;
+  background-color: var(--color-tertiary);
+  color: var(--color-link-text);
+}
+
+.disabled-chip:hover {
+  background-color: var(--color-link-text);
+  color: var(--color-tertiary);
+}
