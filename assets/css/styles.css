@@ -333,6 +333,11 @@ h1, h2, h3 {
   list-style-type: circle;
 }
 
+.technology {
+  font-weight: 200;
+  font-size: 0.75em;
+}
+
 .downloads {
   margin-top: 50px;
 }
