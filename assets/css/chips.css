@@ -80,6 +80,10 @@
   content: "\f1c5";
 }
 
+.fa-chip.slides:before {
+  content: "\f1c4";
+}
+
 .fa-chip.pdf:before {
   content: "\f1c1";
 }
