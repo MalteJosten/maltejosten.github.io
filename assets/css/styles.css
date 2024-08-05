@@ -184,6 +184,14 @@ h1, h2, h3 {
 
 /** PUBLICATIONS **/
 
+.pub-year {
+    margin-top: 20px;
+}
+
+.publication {
+    margin-top: 5px;
+}
+
 .pub-thumbnail-box {
   vertical-align: top;
   text-align: center;
@@ -211,6 +219,12 @@ h1, h2, h3 {
   font-family: "Academicons";
   font-weight: 400;
   content: "\e929";
+}
+
+.springer-conference:before {
+  font-family: "Academicons";
+  font-weight: 400;
+  content: "\e928";
 }
 
 .acm-conference:before {
