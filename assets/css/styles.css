@@ -291,7 +291,7 @@ h1, h2, h3 {
   vertical-align: top;
 }
 
-.act-role-section > td {
+.act-role-section-header > td{
   padding-top: 15px !important;
 }
 
