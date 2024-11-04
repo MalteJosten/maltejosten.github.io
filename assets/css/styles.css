@@ -360,3 +360,7 @@ h1, h2, h3 {
   font-weight: 600;
   padding-right: 5px;
 }
+
+.last-change {
+    font-weight: 100;
+}
