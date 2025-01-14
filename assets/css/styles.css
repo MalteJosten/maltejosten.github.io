@@ -197,6 +197,7 @@ h1, h2, h3 {
   text-align: center;
   width: 50%;
   margin: 0 auto;
+  padding: 1em 0em 0px 4em;
 }
 
 .pub-details {
@@ -266,7 +267,7 @@ h1, h2, h3 {
 
   .pub-details {
     display: table-cell;
-    padding: 0 0.5em 0 0;
+    padding: 1em 0.5em 0 0;
   }
 
   .pub-misc {
