@@ -138,6 +138,7 @@ section {
   width: 300px;
   object-fit: cover;  
   border-radius: 50%;
+  border: 5px solid var(--color-bg);
 }
 
 .about-text {

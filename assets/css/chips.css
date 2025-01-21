@@ -141,7 +141,7 @@
 }
 
 .inv-chip:hover {
-  background-color: var(--color-secondary) !important;
+  background-color: var(--color-link-text) !important;
   border: 1.5px solid var(--color-link-text) !important;
   color: var(--color-link-text) !important;
 }
