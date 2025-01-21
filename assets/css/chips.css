@@ -32,6 +32,10 @@
   content: "\e97e";
 }
 
+.ai-chip.arxiv:before {
+  content: "\e974";
+}
+
 .ai-chip.scholar:before {
   content: "\e9d4";
 }
@@ -129,4 +133,15 @@
 .disabled-chip:hover {
   background-color: var(--color-link-text);
   color: var(--color-tertiary);
+}
+
+.inv-chip {
+    background-color: var(--color-bg) !important;
+    color: var(--color-secondary) !important;
+}
+
+.inv-chip:hover {
+  background-color: var(--color-secondary) !important;
+  border: 1.5px solid var(--color-link-text) !important;
+  color: var(--color-link-text) !important;
 }

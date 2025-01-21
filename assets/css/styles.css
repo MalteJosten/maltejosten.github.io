@@ -1,13 +1,20 @@
 :root {
-  --color-primary: rgb(35, 25, 66);
-  --color-secondary: rgb(105, 97, 143);
-  --color-tertiary: rgb(139, 135, 158);
-  --color-link: rgb(183, 133, 190);
-  --color-link-text: rgb(255, 255, 255);
+    --color-bg: rgb(255, 255, 255);
+    --color-primary: rgb(35, 25, 66);
+    --color-secondary: rgb(105, 97, 143);
+    --color-tertiary: rgb(139, 135, 158);
+    --color-link: rgb(183, 133, 190);
+    --color-link-text: rgb(255, 255, 255);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-  background-color: var(--color-bg);
+  background-color: var(--color-bg) !important;
   color: var(--color-primary);
 }
 
@@ -49,6 +56,12 @@ h1, h2, h3 {
   text-decoration: underline;
 }
 
+section {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
 .section-header {
   display: flex;
   flex-direction: row;
@@ -73,7 +86,43 @@ h1, h2, h3 {
   margin-left: 10px;
 }
 
+
+/** NAVBAR **/
+
+.navbar {
+    background-color: var(--color-secondary);
+}
+
+.navbar-nav {
+    width: 100%;
+}
+
+.navbar-toggler {
+    border-color: transparent !important;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:hover {
+    border-color: transparent !important;
+    shadow: none;
+}
+
+.navbar-toggle-icon {
+    color: var(--color-bg);
+}
+
+.nav-link {
+    font-weight: 600 !important;
+    color: var(--color-bg) !important;
+}
+
+
 /** ABOUT **/
+
+.about-section {
+    background-color: var(--color-secondary);
+    color: var(--color-bg);
+}
 
 .about-collection {
   display: block;
