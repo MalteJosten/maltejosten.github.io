@@ -296,8 +296,32 @@ h1, h2, h3 {
   padding-top: 15px !important;
 }
 
+.activity-list {
+    list-style-type: none;
+}
+
 .act-role {
   font-weight: 600;
+}
+
+.narrow-only {
+    display: block;
+}
+
+.wide-only {
+    display: block;
+}
+
+@media (min-width: 768px) {
+    .narrow-only {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .wide-only {
+        display: none;
+    }
 }
 
 /** PROJECTS + CV **/
