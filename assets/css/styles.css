@@ -14,46 +14,46 @@
 }
 
 body {
-  background-color: var(--color-bg) !important;
-  color: var(--color-primary);
+    background-color: var(--color-bg) !important;
+    color: var(--color-primary);
 }
 
 footer {
-  background-color: var(--color-secondary);
-  margin-top: 20px;
-  padding: 10px;
+    background-color: var(--color-secondary);
+    margin-top: 20px;
+    padding: 10px;
 }
 
 footer > div {
-  text-align: center;
-  color: #fff;
+    text-align: center;
+    color: #fff;
 }
 
 #footer-divider {
-  width: 400px;
-  margin: 10px auto;
+    width: 400px;
+    margin: 10px auto;
 }
 
 h1, h2, h3 {
-  font-weight: 700;
+    font-weight: 700;
 }
 
 .link {
-  color: var(--color-secondary);
-  text-decoration: none;
+    color: var(--color-secondary);
+    text-decoration: none;
 }
 
 .link:hover {
-  color: var(--color-link);
+    color: var(--color-link);
 }
 
 .reference {
-  color: var(--color-primary);
-  text-decoration: none;
+    color: var(--color-primary);
+    text-decoration: none;
 }
 
 .reference:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 section {
@@ -63,27 +63,33 @@ section {
 }
 
 .section-header {
-  display: flex;
-  flex-direction: row;
-  font-size: 3em;
-  text-align: center;
-  margin: 50px 0 25px;
+    display: flex;
+    flex-direction: row;
+    font-size: 3em;
+    text-align: center;
+    margin: 50px 0 25px;
 }
 
 .section-header:before,
 .section-header:after {
-  content: "";
-  flex: 1 1;
-  border-bottom: 0.125em solid var(--color-primary);
-  margin: 0.5em 0;
+    content: "";
+    flex: 1 1;
+    border-bottom: 0.125em solid var(--color-primary);
+    margin: 0.5em 0;
 }
 
 .section-header:before {
-  margin-right: 10px;
+    margin-right: 10px;
 }
 
 .section-header:after {
-  margin-left: 10px;
+    margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+    section > .container {
+        max-width: 728px;
+    }
 }
 
 
@@ -125,24 +131,24 @@ section {
 }
 
 .about-collection {
-  display: block;
-  margin: 50px auto;
+    display: block;
+    margin: 50px auto;
 }
 
 .about-img {
-  margin-bottom: 25px;
-  text-align: center;
+    margin-bottom: 25px;
+    text-align: center;
 }
 
 .img-me {
-  width: 300px;
-  object-fit: cover;  
-  border-radius: 50%;
-  outline: 5px solid var(--color-bg);
+    width: 300px;
+    object-fit: cover;  
+    border-radius: 50%;
+    outline: 5px solid var(--color-bg);
 }
 
 .about-text {
-  text-align: center;
+    text-align: center;
     margin-bottom: 25px;
 }
 
@@ -151,53 +157,53 @@ section {
 }
 
 .footnote {
-  font-weight: 200;
+    font-weight: 200;
 }
 
 .about-socials {
-  text-align: center;
+    text-align: center;
 }
 
 @media (min-width: 768px) {
-  .about-collection {
-    display: table;
-    margin: 50px auto;
-  }
+    .about-collection {
+        display: table;
+        margin: 50px auto;
+    }
 
-  .about-img, .about-params {
-    display: table-cell;
-  }
+    .about-img, .about-params {
+        display: table-cell;
+    }
 
-  .about-img {
-    text-align: left; 
-  }
+    .about-img {
+        text-align: left; 
+    }
 
-  .about-text {
-    text-align: left;
-    margin-top: 5px;
-  }
+    .about-text {
+        text-align: left;
+        margin-top: 5px;
+    }
 
-  .about-img {
-    padding-right: 25px;
-  }
+    .about-img {
+        padding-right: 25px;
+    }
 
-  .img-me {
-    width: 200px;
-  }
+    .img-me {
+        width: 200px;
+    }
 
-  .about-params {
-    vertical-align: middle;
-  }
+    .about-params {
+        vertical-align: middle;
+    }
 
-  .about-socials {
-    text-align: left;
-  }
+    .about-socials {
+        text-align: left;
+    }
 }
 
 /** RESEARCH **/
 
 .research-fields {
-  display: block;
+    display: block;
 }
 
 @media (max-width: 768px) {
@@ -207,15 +213,15 @@ section {
 }
 
 .research-field {
-  padding: 0 50px;
+    padding: 0 50px;
 }
 
 .research-subtitle {
-  font-weight: 300;
+    font-weight: 300;
 }
 
 .research-desc {
-  text-align: justify;
+    text-align: justify;
 }
 
 /** PUBLICATIONS **/
@@ -231,107 +237,113 @@ section {
 }
 
 .pub-thumbnail-box {
-  vertical-align: top;
-  text-align: center;
-  width: 50%;
-  margin: 0 auto;
-  padding: 1em 0em 0px 4em;
+    vertical-align: top;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    padding: 1em 0em 0px 4em;
+}
+
+@media (max-width: 768px) {
+    .pub-thumbnail-box {
+        display: none; !important
+    }
 }
 
 .pub-details {
-  padding: 0 20px;
-  vertical-align: top;
+    padding: 0 20px;
+    vertical-align: top;
 }
 
 .pub-thumbnail {
-  border: 1px solid var(--color-primary);
-  width: 100%;
-  display: box;
+    border: 1px solid var(--color-primary);
+    width: 100%;
+    display: box;
 }
 
 .pub-title {
-  font-size: 1.5em;
-  font-weight: 600;
+    font-size: 1.5em;
+    font-weight: 600;
 }
 
 .ieee-conference:before {
-  font-family: "Academicons";
-  font-weight: 400;
-  content: "\e929";
+    font-family: "Academicons";
+    font-weight: 400;
+    content: "\e929";
 }
 
 .springer-conference:before {
-  font-family: "Academicons";
-  font-weight: 400;
-  content: "\e928";
+    font-family: "Academicons";
+    font-weight: 400;
+    content: "\e928";
 }
 
 .acm-conference:before {
-  font-family: "Academicons";
-  font-weight: 400;
-  content: "\e93c";
+    font-family: "Academicons";
+    font-weight: 400;
+    content: "\e93c";
 }
 
 .pub-location {
-  color: var(--color-primary);
-  font-style: italic;
+    color: var(--color-primary);
+    font-style: italic;
 }
 
 .pub-misc {
-  display: none;
+    display: none;
 }
 
 .pub-badge {
-  min-width: 100px;
-  max-width: 10%;
+    min-width: 100px;
+    max-width: 10%;
 }
 
 .pub-chips {
-  margin-top: 1em;
-  margin-bottom: 2em;
+    margin-top: 1em;
+    margin-bottom: 2em;
 }
 
 @media (min-width: 768px) {
-  .pub-thumbnail-box {
-    display: table-cell;
-    width: 25%;
-    padding: 1em 2em 0px 4em;
-    margin: 0;
-  }
+    .pub-thumbnail-box {
+        display: table-cell;
+        width: 25%;
+        padding: 1em 2em 0px 4em;
+        margin: 0;
+    }
 
-  .pub-thumbnail {
-    min-width: 160px;
-  }
+    .pub-thumbnail {
+        min-width: 160px;
+    }
 
-  .pub-details {
-    display: table-cell;
-    padding: 1em 0.5em 0 0;
-  }
+    .pub-details {
+        display: table-cell;
+        padding: 1em 0.5em 0 0;
+    }
 
-  .pub-misc {
-    display: block;
-    padding-top: 15px;
-  }
+    .pub-misc {
+        display: block;
+        padding-top: 15px;
+    }
 
-  .pub-chips {
-    margin-bottom: 0;
-  }
+    .pub-chips {
+        margin-bottom: 0;
+    }
 }
 
 /** ACTIVITIES **/
 
 .activity-table {
-  margin-left: 25px;
+    margin-left: 25px;
 }
 
 .activity-table > tbody > tr > td {
-  padding-right: 10px;
-  padding-bottom: 5px;
-  vertical-align: top;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    vertical-align: top;
 }
 
 .act-role-section-header > td{
-  padding-top: 15px !important;
+    padding-top: 15px !important;
 }
 
 .activity-list {
@@ -339,7 +351,7 @@ section {
 }
 
 .act-role {
-  font-weight: 600;
+    font-weight: 600;
 }
 
 .narrow-only {
@@ -365,63 +377,63 @@ section {
 /** PROJECTS + CV **/
 
 .project-table, .cv-table {
-  margin-left: 25px;
-  margin-right: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 .project-table > tbody > tr > td,
 .cv-table > tbody > tr > td {
-  padding-bottom: 15px;
+    padding-bottom: 15px;
 }
 
 .project-table > tbody > tr:last-child > td:last-child,
 .cv-table > tbody > tr:last-child > td:last-child {
-  padding-bottom: 0;
+    padding-bottom: 0;
 }
 
 .project-name, .cv-title {
-  font-weight: 600;
+    font-weight: 600;
 }
 
 .project-details, .cv-details {
-  padding-left: 15px;
+    padding-left: 15px;
 }
 
 .project-time, .cv-interval {
-  min-width: 80px;
-  vertical-align: top;
-  font-weight: 600;
+    min-width: 80px;
+    vertical-align: top;
+    font-weight: 600;
 }
 
 .tbl-tutor {
-  margin-left: 2em;
+    margin-left: 2em;
 }
 
 .tbl-tutor > tbody > tr > td:last-child {
-  padding-left: 20px;
-  display: flex;
+    padding-left: 20px;
+    display: flex;
 }
 
 .tbl-tutor > tbody > tr > td:last-child > a {
-  margin-right: 5px;
+    margin-right: 5px;
 }
 
 .tbl-tutor > tbody > tr > td > li {
-  list-style-type: circle;
+    list-style-type: circle;
 }
 
 .technology {
-  font-weight: 200;
-  font-size: 0.85em;
+    font-weight: 200;
+    font-size: 0.85em;
 }
 
 .downloads {
-  margin-top: 50px;
+    margin-top: 50px;
 }
 
 .cv-downloads {
-  font-weight: 600;
-  padding-right: 5px;
+    font-weight: 600;
+    padding-right: 5px;
 }
 
 .last-change {
