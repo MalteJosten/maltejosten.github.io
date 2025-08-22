@@ -236,6 +236,10 @@ section {
     margin-top: 5px;
 }
 
+details > .publication:last-child {
+    margin-bottom: 10px;
+}
+
 .pub-thumbnail-box {
     vertical-align: top;
     text-align: center;
@@ -256,7 +260,7 @@ section {
 }
 
 .pub-thumbnail {
-    border: 1px solid var(--color-primary);
+    box-shadow: 5px 5px 5px 5px lightgrey;
     width: 100%;
     display: box;
 }
