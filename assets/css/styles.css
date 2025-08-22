@@ -200,13 +200,14 @@ section {
   display: block;
 }
 
-.research-fields > div:last-child {
-  margin-top: 25px;
+@media (max-width: 768px) {
+    .research-fields > .research-field:first-child {
+        margin-bottom: 50px; !important
+    }
 }
 
 .research-field {
-  margin-left: 25px;
-  margin-right: 25px;
+  padding: 0 50px;
 }
 
 .research-subtitle {
@@ -215,21 +216,6 @@ section {
 
 .research-desc {
   text-align: justify;
-}
-
-@media (min-width: 768px) {
-  .research-fields {
-    display: flex;
-    gap: 10px;
-  }
-  
-  .research-fields > div:last-child {
-    margin-top: 0;
-  }
-
-  .research-field {
-      width: 48%;
-  }
 }
 
 /** PUBLICATIONS **/
