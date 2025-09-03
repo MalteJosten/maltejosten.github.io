@@ -358,26 +358,6 @@ details > .publication:last-child {
     font-weight: 600;
 }
 
-.narrow-only {
-    display: block;
-}
-
-.wide-only {
-    display: block;
-}
-
-@media (min-width: 768px) {
-    .narrow-only {
-        display: none;
-    }
-}
-
-@media (max-width: 767px) {
-    .wide-only {
-        display: none;
-    }
-}
-
 /** PROJECTS + CV **/
 
 .project-table, .cv-table {

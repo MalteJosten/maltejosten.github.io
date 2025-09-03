@@ -1,17 +1,14 @@
-
-/* Academicons Chips */
-
-.ai-chip {
+.ai-chip, .fa-chip {
   text-decoration: none;
   background-color: var(--color-secondary);
-  border-radius: 0.5em;
+  border-radius: 1em;
   padding: 0 10px; 
-  border: 1.5px solid transparent;
+  border: 1.5px solid var(--color-secondary);
   color: var(--color-link-text);
   white-space: nowrap;
 }
 
-.ai-chip:hover {
+.ai-chip:hover, .fa-chip:hover {
   background-color: var(--color-link-text);
   border: 1.5px solid var(--color-secondary);
   color: var(--color-secondary);
@@ -46,24 +43,6 @@
 
 .ai-chip.researchgate:before {
   content: "\e95e";
-}
-
-/* Font Awesome Chips */
-
-.fa-chip {
-  text-decoration: none;
-  background-color: var(--color-secondary);
-  border-radius: 0.5em;
-  padding: 0 10px; 
-  border: 1.5px solid transparent;
-  color: var(--color-link-text);
-  white-space: nowrap;
-}
-
-.fa-chip:hover {
-  background-color: var(--color-link-text);
-  border: 1.5px solid var(--color-secondary);
-  color: var(--color-secondary);
 }
 
 .fa-chip:before {
