@@ -1,17 +1,17 @@
 .ai-chip, .fa-chip {
   text-decoration: none;
-  background-color: var(--color-secondary);
+  background-color: var(--color-link-text);
   border-radius: 1em;
   padding: 0 10px; 
   border: 1.5px solid var(--color-secondary);
-  color: var(--color-link-text);
+  color: var(--color-secondary);
   white-space: nowrap;
 }
 
 .ai-chip:hover, .fa-chip:hover {
-  background-color: var(--color-link-text);
+  background-color: var(--color-secondary);
   border: 1.5px solid var(--color-secondary);
-  color: var(--color-secondary);
+  color: var(--color-link-text);
 
 }
 
