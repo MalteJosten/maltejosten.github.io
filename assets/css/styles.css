@@ -337,25 +337,31 @@ details > .publication:last-child {
 /** ACTIVITIES **/
 
 .activity-table {
-    margin-left: 25px;
+    padding-left: 25px;
 }
 
-.activity-table > tbody > tr > td {
-    padding-right: 10px;
-    padding-bottom: 5px;
-    vertical-align: top;
-}
-
-.act-role-section-header > td{
+.act-role-section {
     padding-top: 15px !important;
-}
-
-.activity-list {
-    list-style-type: none;
 }
 
 .act-role {
     font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .activity-table {
+        padding-left: 0;
+    }
+
+    .act-years {
+      margin-left: 1em;
+    }
+
+    .act-years:before {
+      font-family: "Font Awesome 5 Free";
+      font-weight: 500;
+      content: "\2514  ";
+    }
 }
 
 /** PROJECTS + CV **/
