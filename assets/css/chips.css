@@ -25,6 +25,10 @@
   content: "\e9b9";
 }
 
+.ai-chip.acm:before {
+  content: "\e93c";
+}
+
 .ai-chip.doi:before {
   content: "\e97e";
 }
