@@ -33,6 +33,7 @@
   content: "\e974";
 }
 
+
 .ai-chip.scholar:before {
   content: "\e9d4";
 }
@@ -89,10 +90,15 @@
   content: "\f19c";
 }
 
+.fa-chip.video:before {
+  content: "\f03d";
+}
+
 .fa-chip.apple:before {
   font-family: "Font Awesome 5 Brands";
   content: "\f179";
 }
+
 
 /** Collection **/
 
