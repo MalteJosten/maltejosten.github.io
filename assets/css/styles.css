@@ -390,7 +390,7 @@ details > .publication:last-child {
 }
 
 .project-time, .cv-interval {
-    min-width: 80px;
+    min-width: 140px;
     vertical-align: top;
     font-weight: 600;
 }
