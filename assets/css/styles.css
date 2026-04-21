@@ -1,10 +1,15 @@
 :root {
     --color-bg: rgb(255, 255, 255);
-    --color-primary: rgb(35, 25, 66);
-    --color-secondary: rgb(105, 97, 143);
+    --color-primary: rgb(25, 46, 66);
+    --color-secondary: rgb(97, 126, 143);
     --color-tertiary: rgb(139, 135, 158);
-    --color-link: rgb(183, 133, 190);
+    --color-link: rgb(133, 169, 190);
     --color-link-text: rgb(255, 255, 255);
+}
+
+*::selection, *::-webkit-selection {
+  background: var(--color-secondary);
+  color: var(--color-bg);
 }
 
 * {
@@ -110,7 +115,7 @@ section {
 .navbar-toggler:focus,
 .navbar-toggler:hover {
     border-color: transparent !important;
-    shadow: none;
+    box-shadow: none;
 }
 
 .navbar-toggle-icon {
@@ -208,7 +213,7 @@ section {
 
 @media (max-width: 768px) {
     .research-fields > .research-field:first-child {
-        margin-bottom: 50px; !important
+        margin-bottom: 50px !important;
     }
 }
 
@@ -250,7 +255,7 @@ details > .publication:last-child {
 
 @media (max-width: 768px) {
     .pub-thumbnail-box {
-        display: none; !important
+        display: none !important;
     }
 }
 
