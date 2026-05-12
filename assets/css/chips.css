@@ -116,6 +116,7 @@
   pointer-events: none;
   cursor: default;
   background-color: var(--color-tertiary);
+  border: 1.5px solid var(--color-tertiary);
   color: var(--color-link-text);
 }
 
