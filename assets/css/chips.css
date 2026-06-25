@@ -80,6 +80,10 @@
   content: "\f0c1";
 }
 
+.fa-chip.file:before {
+  content: "\f15b";
+}
+
 .fa-chip.github:before {
   font-family: "Font Awesome 5 Brands";
   content: "\f09b";
