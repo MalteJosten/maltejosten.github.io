@@ -376,14 +376,6 @@ details > .publication:last-child {
     margin-right: 25px;
 }
 
-.cv-table > tbody > tr > td {
-    padding-bottom: 15px;
-}
-
-.cv-table > tbody > tr:last-child > td:last-child {
-    padding-bottom: 0;
-}
-
 .project-name, .cv-title {
     font-weight: 600;
 }
