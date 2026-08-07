@@ -372,25 +372,13 @@ details > .publication:last-child {
 /** PROJECTS + CV **/
 
 .project-table, .cv-table {
-    width: 100%;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.project-table > tbody > tr,
-.cv-table > tbody > tr {
-    display: block;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 .project-table > tbody > tr > td,
 .cv-table > tbody > tr > td {
-    display: block;
     padding-bottom: 15px;
-}
-
-.project-table > tbody > tr > td:first-child,
-.cv-table > tbody > tr > td:first-child {
-    padding-bottom: 2px;
 }
 
 .project-table > tbody > tr:last-child > td:last-child,
@@ -403,37 +391,13 @@ details > .publication:last-child {
 }
 
 .project-details, .cv-details {
-    padding-left: 0;
+    padding-left: 15px;
 }
 
 .project-time, .cv-interval {
+    min-width: 140px;
+    vertical-align: top;
     font-weight: 600;
-}
-
-@media (min-width: 768px) {
-    .project-table, .cv-table {
-        margin-left: 25px;
-        margin-right: 25px;
-    }
-
-    .project-table > tbody > tr,
-    .cv-table > tbody > tr {
-        display: table-row;
-    }
-
-    .project-table > tbody > tr > td,
-    .cv-table > tbody > tr > td {
-        display: table-cell;
-    }
-
-    .project-details, .cv-details {
-        padding-left: 15px;
-    }
-
-    .project-time, .cv-interval {
-        min-width: 140px;
-        vertical-align: top;
-    }
 }
 
 .tbl-tutor {
