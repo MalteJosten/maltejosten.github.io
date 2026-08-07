@@ -376,12 +376,10 @@ details > .publication:last-child {
     margin-right: 25px;
 }
 
-.project-table > tbody > tr > td,
 .cv-table > tbody > tr > td {
     padding-bottom: 15px;
 }
 
-.project-table > tbody > tr:last-child > td:last-child,
 .cv-table > tbody > tr:last-child > td:last-child {
     padding-bottom: 0;
 }
@@ -398,6 +396,12 @@ details > .publication:last-child {
     min-width: 140px;
     vertical-align: top;
     font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .project-time, .project-details {
+        text-align: center;
+    }
 }
 
 .tbl-tutor {
